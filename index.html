@@ -1,0 +1,54 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <meta charset="utf-08"/>
+        <title>Rock Paper Scissors</title>
+        <link rel="styleSheet" href="myCss.css" />
+    </head>
+
+    <body>
+        <header>
+            <h1>
+                Rock Paper Scissors
+            </h1>
+        </header>
+        <div  class="scoreboard">
+            <h2 class="score-info" id="scoreInfo">
+                choose your weapon
+            </h2>
+            <h3 class="score-message" id="scoreMessage">
+                First to score 5 points to win the game
+            </h3>
+
+            <div class="scoreContainer">
+
+                <div class="scoreBox">
+                    <div class="sign" id="playerSign">?</div>
+                    <p class="Score" id="playerScore">Player : 0</p>
+                </div>
+                
+                <div class="scoreBox">
+                    <div class="sign" id="computerSign">?</div>
+                    <p class="Score" id="computerScore">Computer : 0</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="buttons">
+            <button class="btnSquare" id="papbtn">
+                <div class="sign">🤚</div>
+            </button>
+
+            <button class="btnSquare" id="scibtn">
+                <div class="signb">✌️</div>
+            </button>
+
+            <button class="btnSquare" id="rockbtn">
+                <div class="sign">✊</div>
+            </button>
+        </div>
+
+        <script src="myScript.js"></script>
+    </body>
+</html>
